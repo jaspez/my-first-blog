@@ -18,8 +18,9 @@ h1, h2, h3 {
     font-family: 'Lobster', cursive;
 }
 
-h4 {
+h4 p {
     font-family: 'Roboto', sans-serif;
+    color: #a69ba9;
 }
 
 .date {
