@@ -37,4 +37,8 @@
         <br>&nbsp;
         <p>No comments here yet :(</p>
     {% endfor %}
+    {% if not user.is_authenticated and post.comments.count != post.approved_comments.count %}
+        <br>&nbsp;
+        <p>No comments here yet :(</p>
+    {% endif %}
 {% endblock %}
